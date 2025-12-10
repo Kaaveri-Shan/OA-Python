@@ -49,11 +49,11 @@ print(set1.intersection(set2))
 
 # difference() - Elements in the first set but not in the second.
 print("11.Difference")
-print(set1.difference(set2))
+print(set2.difference(set1))
 
 # symmetric_difference() - Elements in either set but not both.
 print("12.Symmentric Difference")
-print(set1.symmetric_difference(set2))
+print(set2.symmetric_difference(set1))
 
 
 # Relationship Test Methods
