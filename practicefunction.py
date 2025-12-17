@@ -7,7 +7,7 @@ def evenOdd(x):
         return "Odd"
 print(evenOdd(16))
 print(evenOdd(7))
-
+"\n"
 print("2.To Find leap year or not___IF STATEMENT IS USED_____")
 def LeapYear(year):
     if year % 400 == 0 or year % 4 == 0 and year % 100 != 0:
@@ -15,7 +15,7 @@ def LeapYear(year):
     else:
         print(year,"is not leap year")
 LeapYear(2004)
-
+"\n"
 print("3.To check if a number is divisible by 3 and 5___IF STATEMENT IS USED_____")
 def NumCheck(a):
     if a %3 == 0 and a %5 == 0:
@@ -23,7 +23,7 @@ def NumCheck(a):
     else:
         print("Not Divisibly by both the number")
 NumCheck(15)
-
+"\n"
 print("4.Check the number is prime or not___IF STATEMENT IS USED_____")
 def CheckPrime(num):
     if num > 1 and num % 2 != 0 and num % 3 != 0:
@@ -31,7 +31,7 @@ def CheckPrime(num):
     else:
         print(num,"is not a prime number")
 CheckPrime(7)
-
+"\n"
 print("5.Find the smallest number of 3 numbers___IF STATEMENT IS USED_____")
 def FindSmallNum(a,b,c):
     if a<b and a<c:
@@ -41,14 +41,14 @@ def FindSmallNum(a,b,c):
     else:
         print(c,"is lesser than ",a,b)
 FindSmallNum(3,6,9)
-
+"\n"
 print("Implementing For Loop Inside the Function")
 print("1.Square number 1 to 5 ____FOR LOOP IS USED_____")
 def Square():
     for i in range(1,6):
         print(i,"-",i*i)
 Square()
-
+"\n"
 print("2.Print star pattern____FOR LOOP IS USED_____")
 def StarPattern():
     for i in range (1,5):
@@ -57,13 +57,13 @@ print("reverse print if star")
 for i in range (1,5):
     print(" "*(5-i),"*" * i)
 StarPattern()
-
+"\n"
 print("3.Multiplication table of 7____FOR LOOP IS USED_____")
 def Multiplication():
     for i in range(1, 11):
         print("7 x", i, "=", 7*i)
 Multiplication()
-
+"\n"
 print("4. Factorial of a number____FOR LOOP IS USED_____")
 def factorial(n):
     fact = 1
@@ -71,7 +71,7 @@ def factorial(n):
         fact = fact * i
     print(fact)
 factorial(5)
-
+"\n"
 print("5. Sum of odd numbers from 1 to 20____FOR LOOP IS USED_____")
 def sumofoddnum():
     s = 0
@@ -79,5 +79,5 @@ def sumofoddnum():
         s += i
     print(s)
 sumofoddnum()
-
+"\n"
 
