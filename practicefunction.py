@@ -54,6 +54,7 @@ def StarPattern():
     for i in range (1,5):
         print("*" * i)
 StarPattern()
+# print star pattern in  reverse
 
 def RevStar():
     for i in range (1,5):
