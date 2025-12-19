@@ -269,8 +269,11 @@ else:
 
 
 #23.Palindrome
-
-##Palindrome = str(input("Enter the palindrome : "))
+Palindrome = str(input("Enter the palindrome : "))
+if Palindrome[::-1] == Palindrome:
+    print("given string is a palindrome")
+else:
+    print("not a palindrome")
 
 
 
