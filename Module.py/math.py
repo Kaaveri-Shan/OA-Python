@@ -11,3 +11,6 @@ print(round(rupees))
 print(abs(-9856))
 print(pow(4,3))
 
+# # Adjust if birthday has not occurred this year
+# if (today.month, today.day) < (dob.month, dob.day):
+#     age -= 1

@@ -20,7 +20,9 @@ print(od)
 # NamedTuple
 Student = namedtuple("Student", ["name", "age", "marks"])
 s1 = Student("Kaaveri", 20, 90)
+s2 = Student("Bavani",30,88)
 print(s1.name, s1.marks)
+print(s2.name,s2.age,s2.marks)
 
 # Deque
 dq = deque([1, 2, 3])
