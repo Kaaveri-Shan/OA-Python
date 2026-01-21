@@ -16,16 +16,20 @@ d = Dog()
 print(d.sound())
 
 
-# class ATM(ABC):                      # Abstract class (ATM interface)
+class ATM(ABC):                      # Abstract class (ATM interface)
     
-#     @abstractmethod
-#     def withdraw(self, amount):      # What ATM can do
-#         pass                         # How it is done is hidden
+    @abstractmethod
+    def withdraw(self, amount):      # What ATM can do
+        pass                         # How it is done is hidden
 
-# class BankATM(ATM):                  # Bank implements ATM
+class BankATM(ATM):                  # Bank implements ATM
     
-#     def withdraw(self, amount):      # Actual implementation
-#         print("Please collect cash:", amount)
+    def withdraw(self, amount):      # Actual implementation
+        print("Please collect cash:", amount)
+
+atm = BankATM()                      # User uses ATM
+atm.withdraw(2000)                   # User presses withdraw
+
 
 
 
